@@ -1,4 +1,4 @@
-﻿Build started 2017-03-10 13:57:14.
+﻿Build started 2017-03-10 14:11:38.
      1>Project "C:\Users\student\PWP_lab1\build\ZERO_CHECK.vcxproj" on node 2 (rebuild target(s)).
      1>_PrepareForClean:
          Deleting file "Win32\Debug\ZERO_CHECK\ZERO_CHECK.lastbuildstate".
@@ -7,6 +7,7 @@
        CustomBuild:
          Checking Build System
          CMake does not need to re-run because C:/Users/student/PWP_lab1/build/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/student/PWP_lab1/build/lib/CMakeFiles/generate.stamp is up-to-date.
        FinalizeBuildStatus:
          Deleting file "Win32\Debug\ZERO_CHECK\ZERO_CHECK.unsuccessfulbuild".
          Touching "Win32\Debug\ZERO_CHECK\ZERO_CHECK.lastbuildstate".
