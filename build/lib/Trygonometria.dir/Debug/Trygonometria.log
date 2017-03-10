@@ -1,0 +1,19 @@
+﻿Build started 2017-03-10 13:02:02.
+     1>Project "C:\Users\student\PWP_lab1\build\lib\Trygonometria.vcxproj" on node 3 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Trygonometria.dir\Debug\Trygonometria.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "Trygonometria.dir\Debug\Trygonometria.unsuccessfulbuild".
+       CustomBuild:
+         Building Custom Rule C:/Users/student/PWP_lab1/src/lib/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\student\PWP_lab1\build\lib\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\student\PWP_lab1\src\lib /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Trygonometria.dir\Debug\\" /Fd"Trygonometria.dir\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\lib\trygonometria.cpp
+         trygonometria.cpp
+     1>..\..\src\lib\trygonometria.cpp(5): error C2065: 'pi' : undeclared identifier
+     1>..\..\src\lib\trygonometria.cpp(9): error C2065: 'pi' : undeclared identifier
+     1>Done Building Project "C:\Users\student\PWP_lab1\build\lib\Trygonometria.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.38
