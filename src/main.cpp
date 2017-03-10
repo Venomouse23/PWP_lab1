@@ -1,7 +1,17 @@
+#include "LaborkaConfig.h"
+#ifdef USE_TRIGONOMETRY_DEGREE
 #include "trygonometria.h"
+#else
+#define _USE_MATH_DEFINES
+#include <math.h>
+#endif
+
 int main(){
-	double kat = 5;
-	double sin_degree(kat);
-	double cos_degree(kat);
-return 0;
+	double result;
+#ifdef USE_TRIGONOMETRY_DEGREE
+	//double cos_degree(45.0);
+	result = cos_degree(45.0);
+#else
+	result = cos(M_PI/4.0);
+#endif
 }
